@@ -1,0 +1,9 @@
+Average Temperature:
+38.0
+
+Critical Machines:
+  sensor_id            timestamp  temperature  humidity machine_status
+3      S104  2026-06-01 09:15:00           50        80       Critical
+
+Maximum Temperature:
+50
