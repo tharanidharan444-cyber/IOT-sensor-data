@@ -1,0 +1,6 @@
+sensor_id	timestamp	temperature	humidity	machine_status
+S101	6/1/2026 9:00	32	60	Running
+S102	6/1/2026 9:05	35	65	Running
+S103	6/1/2026 9:10	42	70	Warning
+S104	6/1/2026 9:15	50	80	Critical
+S105	6/1/2026 9:20	31	58	Running
