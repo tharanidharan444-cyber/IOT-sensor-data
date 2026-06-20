@@ -1,0 +1,9 @@
+CREATE DATABASE iot_factory;
+USE iot_factory;
+CREATE TABLE sensor_data(
+sensor_id VARCHAR(10),
+timestamp DATETIME,
+temperature INT,
+humidity INT,
+machine_status VARCHAR(20)
+);
