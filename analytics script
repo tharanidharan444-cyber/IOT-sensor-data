@@ -1,0 +1,12 @@
+import pandas as pd
+
+df = pd.read_csv("sensor_data.csv")
+
+print("Average Temperature:")
+print(df["temperature"].mean())
+
+print("\nCritical Machines:")
+print(df[df["machine_status"] == "Critical"])
+
+print("\nMaximum Temperature:")
+print(df["temperature"].max())
